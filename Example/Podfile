@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TCLogin_Example' do
+  pod 'TCLogin', :path => '../'
+
+  target 'TCLogin_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
