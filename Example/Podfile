@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'TCLogin_Example' do
   pod 'TCLogin', :path => '../'
+  pod 'TCBaseModule', :path => '../../TCBaseModule'
 
   target 'TCLogin_Tests' do
     inherit! :search_paths

@@ -1,0 +1,32 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TCBaseModule (0.1.0)
+  - TCLogin (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TCBaseModule (from `../../TCBaseModule`)
+  - TCLogin (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TCBaseModule:
+    :path: "../../TCBaseModule"
+  TCLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TCBaseModule: 41f1cf9eae27d07559cb4bee665609936284e710
+  TCLogin: b79cfca8f4c6aaabdfc0818d513c1668d01420ef
+
+PODFILE CHECKSUM: 54f32c5513057c5961d6fe0b0cb9e30aaeb1ce5c
+
+COCOAPODS: 1.8.0
